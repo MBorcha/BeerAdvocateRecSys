@@ -5,6 +5,7 @@ Developing a recommender system which offers a sort of beer based on a client's 
 
 ## Data
 "BeerAdvocate" is a web-site which contains comments and rates related to different sorts of beer. The data span a period of more than 10 years, including all ~1.5 million reviews up to November 2011. Each review includes ratings in terms of five "aspects": appearance, aroma, palate, taste, and overall impression. Reviews include product and user information, followed by each of these five ratings, and a plaintext review.
+
 Text of reviews
 
 ## Quality evaluation
@@ -14,7 +15,7 @@ So recommending a sort of beer which is the following for the most of clients, i
 At the same time it's a universal baseline which can be applied to any existing client, but not to a new client.
 For a new client there can be chosen a random sort.
 
-## Design of the application:
+## Design of the application
 1. Sign-in or sign-up
 2. Ask questions about preferences (for a new client) or/and "Describe what you want right now"
 3. Making recommendations based on the previously added information as well as info which was provided on the previous step
